@@ -8,5 +8,19 @@ public class Main {
 
         boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
+        double media = notaDoFilme + 9.1;
+
+        String sinopse;
+        sinopse = """
+                Filme Top Gun
+                Filme de aventura
+                Muito bom!
+                Ano de lançamento %d
+                """ + anoDeLancamento;
+
+        System.out.println(sinopse);
+
+        int classificacao = (int) (media / 2);
+        System.out.println(classificacao);
     }
 }
